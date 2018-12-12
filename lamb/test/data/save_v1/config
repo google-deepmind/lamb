@@ -1,0 +1,372 @@
+hparam {
+  key: "activation_fn"
+  value {
+    bytes_value: "tf.tanh"
+  }
+}
+hparam {
+  key: "activation_norm_penalty"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "adam_beta1"
+  value {
+    float_value: 0.899999976158
+  }
+}
+hparam {
+  key: "adam_beta2"
+  value {
+    float_value: 0.999000012875
+  }
+}
+hparam {
+  key: "adam_epsilon"
+  value {
+    float_value: 9.99999993923e-09
+  }
+}
+hparam {
+  key: "batch_size"
+  value {
+    int64_value: 64
+  }
+}
+hparam {
+  key: "cap_input_gate"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "cell_clip"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "cell_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "downprojected_output_dropout"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "drop_learning_rate_at_the_latest"
+  value {
+    int64_value: 2000
+  }
+}
+hparam {
+  key: "drop_learning_rate_multiplier"
+  value {
+    float_value: 0.10000000149
+  }
+}
+hparam {
+  key: "drop_learning_rate_rounds"
+  value {
+    int64_value: 90
+  }
+}
+hparam {
+  key: "drop_state_probability"
+  value {
+    float_value: 0.00999999977648
+  }
+}
+hparam {
+  key: "embed_once"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "embedding_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "eval_method"
+  value {
+    bytes_value: "deterministic"
+  }
+}
+hparam {
+  key: "feature_mask"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "feature_mask_rank"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "feature_mask_rounds"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "forget_bias"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "hidden_size"
+  value {
+    int64_value: -1
+  }
+}
+hparam {
+  key: "input_dropout"
+  value {
+    float_value: 0.51551002264
+  }
+}
+hparam {
+  key: "input_embedding_ratio"
+  value {
+    float_value: 0.229729995131
+  }
+}
+hparam {
+  key: "input_embedding_size"
+  value {
+    int64_value: -1
+  }
+}
+hparam {
+  key: "intra_layer_dropout"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "layer_norm"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "learning_rate"
+  value {
+    float_value: 0.00483079999685
+  }
+}
+hparam {
+  key: "learning_rate_decay"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "learning_rate_decay_burn_in_steps"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "lstm_skip_connection"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "max_grad_norm"
+  value {
+    float_value: 10.0
+  }
+}
+hparam {
+  key: "mixture_of_softmaxes_num_components"
+  value {
+    int64_value: 1
+  }
+}
+hparam {
+  key: "model"
+  value {
+    bytes_value: "lstm"
+  }
+}
+hparam {
+  key: "model_average"
+  value {
+    bytes_value: "arithmetic"
+  }
+}
+hparam {
+  key: "num_eval_samples"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "num_layers"
+  value {
+    int64_value: 1
+  }
+}
+hparam {
+  key: "num_params"
+  value {
+    int64_value: 50000
+  }
+}
+hparam {
+  key: "num_training_samples"
+  value {
+    int64_value: 1
+  }
+}
+hparam {
+  key: "optimizer_type"
+  value {
+    bytes_value: "rmsprop"
+  }
+}
+hparam {
+  key: "outer_steps"
+  value {
+    int64_value: 2500
+  }
+}
+hparam {
+  key: "output_dropout"
+  value {
+    float_value: 0.338010013103
+  }
+}
+hparam {
+  key: "output_embedding_ratio"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "output_embedding_size"
+  value {
+    int64_value: -1
+  }
+}
+hparam {
+  key: "output_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "overlay_rank"
+  value {
+    int64_value: -1
+  }
+}
+hparam {
+  key: "rmsprop_beta2"
+  value {
+    float_value: 0.999000012875
+  }
+}
+hparam {
+  key: "rmsprop_epsilon"
+  value {
+    float_value: 9.99999993923e-09
+  }
+}
+hparam {
+  key: "share_input_and_output_embeddings"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "softmax_test_time_temperature"
+  value {
+    float_value: -0.800000011921
+  }
+}
+hparam {
+  key: "sparsity_ratio"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "state_dropout"
+  value {
+    float_value: 0.184169992805
+  }
+}
+hparam {
+  key: "state_dropout_flip_rate"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "test_time_dropout_multiplier"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "test_time_power_mean_power"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "tie_forget_and_input_gates"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "token_dropout"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "trainable_initial_state"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "update_dropout"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "vocab_size"
+  value {
+    int64_value: 10001
+  }
+}
+hparam {
+  key: "weight_decay"
+  value {
+    float_value: 7.67599995015e-05
+  }
+}
+hparam {
+  key: "weight_penalty"
+  value {
+    float_value: 0.0
+  }
+}

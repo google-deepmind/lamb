@@ -1,0 +1,294 @@
+hparam {
+  key: "activation_fn"
+  value {
+    bytes_value: "tf.tanh"
+  }
+}
+hparam {
+  key: "adam_beta1"
+  value {
+    float_value: 0.899999976158
+  }
+}
+hparam {
+  key: "adam_beta2"
+  value {
+    float_value: 0.999000012875
+  }
+}
+hparam {
+  key: "adam_epsilon"
+  value {
+    float_value: 9.99999993923e-09
+  }
+}
+hparam {
+  key: "batch_size"
+  value {
+    int64_value: 64
+  }
+}
+hparam {
+  key: "cell_clip"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "cell_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "drop_learning_rate_at_the_latest"
+  value {
+    int64_value: 900
+  }
+}
+hparam {
+  key: "drop_learning_rate_multiplier"
+  value {
+    float_value: 0.10000000149
+  }
+}
+hparam {
+  key: "drop_learning_rate_rounds"
+  value {
+    int64_value: 26
+  }
+}
+hparam {
+  key: "drop_state_probability"
+  value {
+    float_value: 0.00999999977648
+  }
+}
+hparam {
+  key: "embed_once"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "embedding_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "feature_mask"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "forget_bias"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "hidden_size"
+  value {
+    int64_value: 1194
+  }
+}
+hparam {
+  key: "input_dropout"
+  value {
+    float_value: 0.579891622066
+  }
+}
+hparam {
+  key: "input_embedding_ratio"
+  value {
+    float_value: 0.224374398589
+  }
+}
+hparam {
+  key: "input_embedding_size"
+  value {
+    int64_value: 268
+  }
+}
+hparam {
+  key: "intra_layer_dropout"
+  value {
+    float_value: 0.873659133911
+  }
+}
+hparam {
+  key: "layer_norm"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "learning_rate"
+  value {
+    float_value: 0.00417865626514
+  }
+}
+hparam {
+  key: "learning_rate_decay"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "learning_rate_decay_burn_in_steps"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "lstm_skip_connection"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "max_grad_norm"
+  value {
+    float_value: 10.0
+  }
+}
+hparam {
+  key: "model"
+  value {
+    bytes_value: "lstm"
+  }
+}
+hparam {
+  key: "num_eval_samples"
+  value {
+    int64_value: 0
+  }
+}
+hparam {
+  key: "num_layers"
+  value {
+    int64_value: 1
+  }
+}
+hparam {
+  key: "num_params"
+  value {
+    int64_value: 10000000
+  }
+}
+hparam {
+  key: "optimizer_type"
+  value {
+    bytes_value: "rmsprop"
+  }
+}
+hparam {
+  key: "outer_steps"
+  value {
+    int64_value: 1000
+  }
+}
+hparam {
+  key: "output_dropout"
+  value {
+    float_value: 0.327008873224
+  }
+}
+hparam {
+  key: "output_embedding_ratio"
+  value {
+    float_value: 0.224374398589
+  }
+}
+hparam {
+  key: "output_embedding_size"
+  value {
+    int64_value: 268
+  }
+}
+hparam {
+  key: "output_init_factor"
+  value {
+    float_value: 1.0
+  }
+}
+hparam {
+  key: "overlay_rank"
+  value {
+    int64_value: -1
+  }
+}
+hparam {
+  key: "rmsprop_beta2"
+  value {
+    float_value: 0.999000012875
+  }
+}
+hparam {
+  key: "rmsprop_epsilon"
+  value {
+    float_value: 9.99999993923e-09
+  }
+}
+hparam {
+  key: "share_input_and_output_embeddings"
+  value {
+    bool_value: true
+  }
+}
+hparam {
+  key: "sparsity_ratio"
+  value {
+    float_value: -1.0
+  }
+}
+hparam {
+  key: "state_dropout"
+  value {
+    float_value: 0.215256482363
+  }
+}
+hparam {
+  key: "tie_forget_and_input_gates"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "token_dropout"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "trainable_initial_state"
+  value {
+    bool_value: false
+  }
+}
+hparam {
+  key: "update_dropout"
+  value {
+    float_value: 0.0
+  }
+}
+hparam {
+  key: "vocab_size"
+  value {
+    int64_value: 10001
+  }
+}
+hparam {
+  key: "weight_decay"
+  value {
+    float_value: 0.000124350262922
+  }
+}
+hparam {
+  key: "weight_penalty"
+  value {
+    float_value: 0.0
+  }
+}
