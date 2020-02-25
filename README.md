@@ -72,11 +72,7 @@ For example:
 
     conda create -n tfp3.7 python=3.7 numpy scipy
     conda activate tfp3.7
-    conda install cudatoolkit
-    conda install cudnn
-    conda install tensorflow-gpu=1.15
-    conda install tensorflow-probability-gpu=1.15
-    conda install tensorflow-probability
+    conda install cudatoolkit cudnn tensorflow-gpu=1.15 tensorflow-probability
     pip install -e <path-to-git-checkout>
 
 <a name="reference"></a>
