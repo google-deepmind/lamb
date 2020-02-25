@@ -2,7 +2,7 @@ This directory contains saved configuration files for tuned models from the
 [Mogrifier LSTM](https://arxiv.org/abs/1909.01792) paper. Model weights are not
 included.
 
-Don't forget to [set up the data](../../README.md).
+Don't forget to [set up the data](../../../README.md).
 
 For example, to train a Mogrifier LSTM with 24M parameters on PTB with tuned
 hyperparameters (see the paper above):
