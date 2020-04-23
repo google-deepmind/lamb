@@ -75,8 +75,8 @@ For example:
     conda install cudatoolkit
     conda install cudnn
     conda install tensorflow-gpu=1.15
-    conda install tensorflow-probability-gpu=1.15
-    conda install tensorflow-probability
+    pip install --upgrade --user "tensorflow<2" "tensorflow_probability<0.9"
+    pip install dm-sonnet==1.36
     pip install -e <path-to-git-checkout>
 
 <a name="reference"></a>
