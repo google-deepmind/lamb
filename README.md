@@ -6,18 +6,18 @@ was used in the following papers (alse see [citations](#citations)):
 
 - [On the state of the art of evaluation in neural language models](https://arxiv.org/abs/1707.05589)
 
-  See [./experiment/on-the-state/README.md](./experiment/on-the-state/README.md)
+  See [./lamb/experiment/on-the-state/README.md](./experiment/on-the-state/README.md)
   for more.
 
 - [Pushing the bounds of dropout](https://arxiv.org/abs/1805.09208)
 
   See
-  [./experiment/pushing-the-bounds/README.md](./experiment/pushing-the-bounds/README.md)
+  [./lamb/experiment/pushing-the-bounds/README.md](./experiment/pushing-the-bounds/README.md)
   for more.
 
 - [Mogrifier LSTM](https://arxiv.org/abs/1909.01792)
 
-  See [./experiment/mogrifier/README.md](./experiment/mogrifier/README.md) for
+  See [./lamb/experiment/mogrifier/README.md](./experiment/mogrifier/README.md) for
   more.
 
 <a name="overview"></a>
